@@ -48,14 +48,23 @@ Designed to provide **mental health support** and **real-time conversations**.
 ## 📂 Project Structure  
 
 ├── Bot/
+
 │ ├── static/voice/ # Saved voice files
+
 │ ├── templates/ # HTML templates (chat, login, profile, etc.)
+
 │ ├── models.py # ChatMessage model
+
 │ ├── utils.py # ask_ollama function
+
 │ ├── views.py # Main logic (chat, voice, translation)
+
 │ ├── urls.py # URL routing
+
 │ └── ...
+
 ├── manage.py
+
 └── requirements.txt
 
 
